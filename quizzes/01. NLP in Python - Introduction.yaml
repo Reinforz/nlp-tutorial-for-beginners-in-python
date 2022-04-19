@@ -22,12 +22,7 @@ questions:
       - text: BERT
         modifiers:
           - IC
-  - question:
-      - NLP is a field in
-      - science that and
-      - that gives machines an ability to understand
-      - 
-      - 
+  - question: NLP is a field in ___ science and ___ that gives machines an ability to understand ___ ___
     answers:
       - computer
       - text: AI
@@ -60,5 +55,3 @@ questions:
       - NLP Researcher
       - Backend Engineer
       - Data Engineer
-  
-  

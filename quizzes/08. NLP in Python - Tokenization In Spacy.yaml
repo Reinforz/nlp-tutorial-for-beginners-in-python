@@ -1,12 +1,11 @@
 topic: Tokenization in Spacy
 subject: NLP in Python
 questions:
-
   - question:
     - What would be the output of the following code ?
     - type: code
       lang: python
-      content: |
+      text: |
         import spacy
         nlp = spacy.blank("en")
         print(type(nlp))
@@ -42,6 +41,7 @@ questions:
           # Write the output of the following code
           fourth_token = doc[3]
           print(fourth_token.like_num)
+          # Output ___
           # Check if the token is a currency
           fourth_token.___       
     answers:

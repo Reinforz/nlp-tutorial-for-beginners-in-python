@@ -20,12 +20,7 @@ questions:
   - question: Which sklearn class is used for count vectorizer?
     answers:
       - CountVectorizer
-  - question:
-      - Count
-      - is used to convert a collection of
-      - documents in a
-      - of
-      - counts
+  - question: Count ___ is used to convert a collection of ___ documents in a ___ of ___ counts
     answers:
       - vectorizer
       - text
@@ -45,10 +40,10 @@ questions:
     answers:
       - 1
   - question: Which deep learning technique is used to get text similarity?
-    options:
-      - text: Sentence Embedding
-        modifiers:
-          - IC
+    answers:
+      text: Sentence Embedding
+      modifiers:
+        - IC
   - question: Which of the following is used to predict text similarity between text it has not seen in the training phase?
     answers:
       - 0

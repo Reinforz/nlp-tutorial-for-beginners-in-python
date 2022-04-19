@@ -25,7 +25,7 @@ questions:
       - Text extraction & cleanup
       - Text classification
       - Data Acquisition
-  - question: 
+  - question: Which of the following is part of Text extraction & Cleanup
     answers:
       - 0
       - 1
@@ -55,9 +55,9 @@ questions:
       - word classification
   - question: Converting a single word into its base form by removing the last few characters is called?
     answers:
-      - text: stemming
-        modifiers:
-          - IC
+      text: stemming
+      modifiers:
+        - IC
   - question: Converting a single word into its base form by considering context and grammar is called?
     answers:
       - text: lemmatization
