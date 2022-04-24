@@ -1,0 +1,42 @@
+topic: NLP Boom
+subject: NLP in Python
+questions:
+  - question: Which of the following are required for building NLP models?
+    answers:
+      - 0
+      - 1
+    options:
+      - Datasets
+      - Computer Resource
+  - question: Which of the following are NLP models?
+    answers:
+      - 0
+      - 1
+      - 2
+    options:
+      - CodeBERT
+      - OpenNMT
+      - GPT-3
+      - Clustering
+      - PCA
+    explanation:
+      - Clustering and PCA are both unsupervised machine learning model, they are not related to NLP
+  - question: Which of the following is OpenAI's NLP model?
+    answers:
+      - 0
+    options:
+      - GPT-3
+      - Bert
+      - OpenNMT
+  - question: Which of the following are big reasons for the NLP boom?
+    answers:
+      - 0
+      - 1
+      - 2
+      - 3
+    options:
+      - Freely available pre-trained models
+      - Open source ecosystem
+      - Cheap hardware and Cloud resources
+      - Learning resources
+  
