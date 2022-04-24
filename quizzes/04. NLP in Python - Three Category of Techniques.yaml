@@ -1,0 +1,68 @@
+subject: NLP in Python
+topic: Three category of Techniques
+questions:
+  - question: Which of the following is mostly used for information extraction?
+    answers:
+      - 0
+    options:
+      - Regular expression
+      - Machine Learning
+      - Deep Learning
+  - question: Which of the following are categories of NLP techniques?
+    answers:
+      - 0
+      - 1
+      - 2
+    options:
+      - Rules & Heuristics
+      - Machine Learning
+      - Deep Learning
+  - question: Which sklearn class is used for count vectorizer?
+    answers:
+      - CountVectorizer
+  - question:
+      - Count
+      - is used to convert a collection of
+      - documents in a
+      - of
+      - counts
+    answers:
+      - vectorizer
+      - text
+      - matrix
+      - token
+  - question: Which of the following classifier goes well with a count vectorizer?
+    answers:
+      - 0
+    options:
+      - Naive Bayes Classifier
+      - Logistic Regression Classifier
+      - K-Nearest Neighbor Classifier
+  - question: Does count vectorizer works well for text it has never seen before?
+    options:
+      - Yes
+      - No
+    answers:
+      - 1
+  - question: Which deep learning technique is used to get text similarity?
+    options:
+      - text: Sentence Embedding
+        modifiers:
+          - IC
+  - question: Which of the following is used to predict text similarity between text it has not seen in the training phase?
+    answers:
+      - 0
+    options:
+      - Deep Learning
+      - Machine Learning
+    explanation:
+      - Using sentence embedding deep learning technique the model can predict text similarity, which might not be possible with regular machine learning
+  - question: Which of the following is used for sentence embedding?
+    answers:
+      - 0
+    options:
+      - cosine embedding
+      - sine embedding
+      - tan embedding
+  
+  
