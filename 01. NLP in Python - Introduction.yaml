@@ -1,0 +1,64 @@
+topic: Introduction
+subject: NLP in Python
+questions:
+  - question: Which of the following are practical applications of NLP?
+    answers:
+      - 0
+      - 1
+      - 2
+      - 3
+      - 4
+      - 5
+    options:
+      - Language Translation
+      - Spam Filtering
+      - Sentiment Analysis
+      - Text to Speech
+      - Text Completion
+      - Chatbot
+      - Compiler Design
+  - question: Which language model does google uses for answering questions in google search?
+    answers:
+      - text: BERT
+        modifiers:
+          - IC
+  - question:
+      - NLP is a field in
+      - science that and
+      - that gives machines an ability to understand
+      - 
+      - 
+    answers:
+      - computer
+      - text: AI
+        modifiers:
+          - IC
+      - human
+      - language
+  - question: Which of the following python libraries are used for NLP only purposes (not ML/DL) ?
+    answers:
+      - 0
+      - 1
+      - 2
+    options:
+      - spacy
+      - nltk
+      - gensim
+      - tensorflow
+      - keras
+      - pandas
+      - sympy
+      - scipy
+  - question: Which of the following roles are for NLP practitioners?
+    answers:
+      - 0
+      - 1
+      - 2
+    options:
+      - Data Scientist (Specialized in NLP)
+      - NLP Engineer
+      - NLP Researcher
+      - Backend Engineer
+      - Data Engineer
+  
+  
