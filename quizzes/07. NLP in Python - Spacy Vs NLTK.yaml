@@ -1,0 +1,69 @@
+topic: Spacy Vs NLTK
+subject: NLP in Python
+questions:
+  - question: Which of the following library is object oriented?
+    answers:
+      - 0
+    options:
+      - Spacy
+      - NLTK
+  - question: Download all the packages related to `en` for spacy
+    answers:
+      - python -m spacy download en
+  - question: The spacy package `en` has been replaced by?
+    answers:
+      - en_core_web_sm
+  - question: Load the english core package using spacy
+    answers:
+      - spacy.load("en_core_web_sm")
+  - question:
+    - Complete the following code to get all the sentences & word from a given text using spacy
+    - type: code
+      lang: python
+      content:
+        - import ___
+        - nlp = spacy.___(___)
+        - doc = ___("This is a sentence written by Dr. John. While, this is another one written by Ms. Jane.")
+        - "for sentence in ___.___:"
+        -   "for word in ___:"
+        -     print(___)
+        -   print(___)
+    answers:
+      - spacy
+      - load
+      - "en_core_web_sm"
+      - nlp
+      - doc
+      - sents
+      - sentence
+      - word
+      - sentence
+  - question: Which library provides the option to choose a specific algorithm and customization?
+    answers:
+      - 0
+    options:
+      - NLTK
+      - Spacy
+  - question: Download the punkt language corpus in nltk
+    answers:
+      - nltk.download('punkt')
+  - question:
+    - Complete the following code to get all the sentences & word from a given text using nltk
+    - type: code
+      lang: python
+      content:
+        - import ___
+        - "# Import sentence tokenizer first, then word tokenizer" 
+        - from nltk.___ import ___, ___
+        - sentence = "This is a sentence written by Dr. John. While, this is another one written by Ms. Jane."
+        - "# Perform sentence tokenization"
+        - ___(sentence)
+        - "# Perform word tokenization"
+        - ___(sentence)
+    answers:
+      - nltk
+      - tokenizer
+      - sent_tokenize
+      - word_tokenize
+      - sent_tokenize
+      - word_tokenize
