@@ -1,0 +1,195 @@
+topic: NLP Pipeline
+subject: NLP in Python
+questions:
+  - question: What is the first step in an NLP pipeline?
+    answers:
+      - 0
+    options:
+      - Data Acquisition
+      - Data Preprocessing
+      - Model Training
+  - question: Which of the following methods can be used to gather information if its not already available?
+    answers:
+      - 0
+      - 1
+      - 2
+    options:
+      - Exploring Public Dataset
+      - Using web scraping
+      - Data Augmentation
+      - Converting hard copy of text to digital format
+  - question: What is the 2nd step in an NLP pipeline?
+    answers:
+      - 0
+    options:
+      - Text extraction & cleanup
+      - Text classification
+      - Data Acquisition
+  - question: 
+    answers:
+      - 0
+      - 1
+      - 2
+      - 3
+    options:
+      - Discarding irrelevant fields
+      - Merging various fields
+      - Spell correction
+      - Removing unnecessary white spaces
+      - Adding new fields
+  - question: Converting a single text into multiple sentences is called?
+    answers:
+      - 0
+      - 1
+    options:
+      - Sentence segmentation
+      - Sentence tokenization
+      - Sentence lemmatization
+      - Sentence classification
+  - question: Converting a single sentence into multiple words is called?
+    answers:
+      - 0
+    options:
+      - word tokenization
+      - word lemmatization
+      - word classification
+  - question: Converting a single word into its base form by removing the last few characters is called?
+    answers:
+      - text: stemming
+        modifiers:
+          - IC
+  - question: Converting a single word into its base form by considering context and grammar is called?
+    answers:
+      - text: lemmatization
+        modifiers:
+          - IC
+  - question: What is the output of `stem(having)`
+    answers:
+      - hav
+  - question: What is the output of `lemmatize(having)`
+    answers:
+      - have
+  - question: Lemmatization is applicable in which of the following context?
+    answers:
+      - 0
+      - 1
+    options:
+      - Fairly small dataset
+      - High accuracy
+      - Very large dataset
+      - Low accuracy
+  - question: Stemming is applicable in which of the following context?
+    answers:
+      - 0
+      - 1
+    options:
+      - Very large dataset
+      - Low accuracy
+      - Fairly small dataset
+      - High accuracy
+  - question: What is the 3rd step of building an NLP model?
+    answers:
+      - 0
+    options:
+      - Pre-processing
+      - Data Acquisition
+      - Text Extraction & Cleanup
+    type: MCQ
+  - question: Which of the following are done in preprocessing stage
+    answers:
+      - 0
+      - 1
+      - 2
+      - 3
+    options:
+      - Sentence Tokenization
+      - Word Tokenization
+      - Lemmatization
+      - Stemming
+      - Sentence Encoder
+      - Spell Correction
+  - question: Which of the following are used for feature engineering?
+    answers:
+      - 0
+      - 1
+      - 2
+    options:
+      - One hot encoding
+      - TF-IDF vectorizer
+      - Word Embedding
+      - Count Vectorizer
+      - Logistic Regression
+  - question: What is the 4th step in building a NLP pipeline?
+    answers:
+      - 0
+    options:
+      - Feature Engineering
+      - Pre-processing
+      - Text Extraction & Cleanup
+  - question: Does all NLP pipeline require Machine Learning?
+    options:
+      - Yes
+      - No
+    answers:
+      - 1
+  - question: Would creating a NLP pipeline for text classification require Machine Learning?
+    options:
+      - Yes
+      - No
+    answers:
+      - 0
+  - question: Along the X axis of a confusion matrix what is given?
+    answers:
+      - 0
+    options:
+      - Truth
+      - Prediction
+  - question: Along the Y axis of a confusion matrix what is given?
+    answers:
+      - 0
+    options:
+      - Prediction
+      - Truth
+  - question: Which of the following steps in a NLP pipeline is not necessary if there is no ML involved?
+    answers:
+      - 0
+      - 1
+    options:
+      - Model Building
+      - Evaluation
+      - Feature Engineering
+      - Pre-processing
+      - Text Extraction
+  - question: Which of the following can be used to find how good a model is?
+    answers:
+      - 0
+      - 1
+      - 2
+      - 3
+      - 4
+    options:
+      - Accuracy
+      - F1 Score
+      - Recall
+      - Precision
+      - Confusion Matrix
+  - question: Which of the following are end-to-end ML platforms?
+    answers:
+      - 0
+      - 1
+    options:
+      - Azure Machine Learning
+      - Amazon Sagemaker
+      - GPT-3
+      - BERT
+  - question: Which of the following are the last two steps of building a NLP pipeline?
+    answers:
+      - 0
+      - 1
+    options:
+      - Deployment to Cloud
+      - Monitor & Update
+      - Evaluation
+      - Pre-processing
+      - Model Building
+  
