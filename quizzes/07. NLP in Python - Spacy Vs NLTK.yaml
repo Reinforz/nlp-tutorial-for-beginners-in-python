@@ -44,7 +44,7 @@ questions:
     options:
       - NLTK
       - Spacy
-  - question: Download the punkt language corpus in nltk
+  - question: Download the `punkt` language corpus in nltk
     answers:
       - nltk.download('punkt')
   - question:
