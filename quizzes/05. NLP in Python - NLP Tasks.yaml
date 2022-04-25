@@ -1,0 +1,134 @@
+subject: NLP in Python
+topic: NLP Tasks
+questions:
+  - question: Which of the following approaches are used to convert text into vector?
+    answers:
+      - 0
+    options:
+      - TF-IDF
+      - Lemmatization
+      - Naive Bayes
+  - question: Which of the following is an appropriate pipeline for text classification?
+    answers:
+      - 0
+    options:
+      - Preprocessing -> Vectorizer -> Classifier
+      - Preprocessing -> Classifier -> Vectorizer
+      - Vectorizer -> Preprocessing -> Classifier
+  - question: What is the name of Google's OCR service?
+    answers:
+      - 0
+    options:
+      - Tesseract
+      - Prism
+      - Optic
+      - SageMaker
+  - question: Which of the following are examples of text classification?
+    answers:
+      - 0
+      - 1
+      - 2
+    options:
+      - Assigning priority labels to text
+      - Detecting patient and prescription records
+      - Flagging hate speech
+      - Grammar correction
+      - Language translation
+  - question: Which of the following technique is used to detect if two sentences are related to one another?
+    answers:
+      - 0
+    options:
+      - Text Similarity
+      - Text Classification
+      - Text Lemmatization
+    type: MCQ
+  - question: Which if the following are used to convert text to vectors?
+    answers:
+      - 0
+      - 1
+      - 2
+    options:
+      - Sentence Encoder
+      - Count Vectorizer
+      - TF-IDF
+      - Lemmatization
+      - Naive Bayes
+      - Logistic Regression
+  - question: Which of the following is an appropriate pipeline for detecting text similarity?
+    answers:
+      - 0
+    options:
+      - Preprocessing -> Sentence Encoder -> Cosine Similarity
+      - Cosine Similarity -> Sentence Encoder -> Preprocessing
+      - Sentence Encoder -> Preprocessing -> Cosine Similarity
+  - question: Which of the following are basic NLP tasks?
+    answers:
+      - 0
+      - 1
+      - 2
+      - 3
+    options:
+      - Text Classification
+      - Text Extraction
+      - Text Similarity
+      - Information Retrieval
+  - question: Information retrieval returns data that are sorted by which category?
+    answers:
+      - 0
+    options:
+      - Relevancy
+      - Popularity
+  - question: Which of the following models are used for information retrieval?
+    answers:
+      - 0
+      - 1
+    options:
+      - TFIDF Score
+      - Bert
+      - GPT-3
+      - Dalle-2
+  - question: Which of the following are types of chatbot?
+    answers:
+      - 0
+      - 1
+      - 2
+    options:
+      - Open End
+      - FAQ
+      - Flow Based
+      - Argumentation
+  - question: Which of the following does text translation uses?
+    answers:
+      - 0
+    options:
+      - RNN (Recurrent Neural Network)
+      - CNN (Convolutional neural network )
+      - GAN (Generative Adversarial Network)
+    type: MCQ
+  - question: Language modelling is used for?
+    answers:
+      - 0
+    options:
+      - Text prediction
+      - Text similarity
+      - Text classification
+      - Text extraction
+  - question: Which of the following are types of language models?
+    answers:
+      - 0
+      - 1
+    options:
+      - Statistical
+      - Neural
+      - Learning
+      - Recurrent
+      - Generative
+  - question: Which NLP task is used to extract the abstract topic out of a huge volume of text?
+    answers:
+      - 0
+    options:
+      - Topic Modelling
+      - Text Classification
+      - Text Extraction
+      - Text Prediction
+    type: MCQ
