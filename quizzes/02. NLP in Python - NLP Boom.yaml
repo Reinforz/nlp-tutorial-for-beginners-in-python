@@ -34,9 +34,10 @@ questions:
       - 1
       - 2
       - 3
+      - 4
     options:
       - Freely available pre-trained models
       - Open source ecosystem
       - Cheap hardware and Cloud resources
       - Learning resources
-  
+      - Small companies following the footsteps of the tech giants
