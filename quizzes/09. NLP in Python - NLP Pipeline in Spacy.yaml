@@ -1,0 +1,133 @@
+topic: NLP Pipeline in Spacy
+subject: NLP in Python
+questions:
+  - question: Which of the following are components of an NLP pipeline?
+    answers:
+      - 0
+      - 1
+      - 2
+      - 3
+    options:
+      - tokenizer
+      - tagger
+      - parser
+      - ner
+      - automater
+      - linter
+  - question: Create a blank nlp pipeline using `spacy`
+    answers:
+      - spacy.blank("en")
+  - question: Download the pre-trained pipeline for en language
+    answers:
+      - python -m spacy download en_core_web_sm
+  - question: Load the pre-trained english pipeline in `spacy`
+    answers:
+      - spacy.load("en_core_web_sm")
+  - question: Which of the following components are part of the `en_core_web_sm` pipeline?
+    answers:
+      - 0
+      - 1
+      - 2
+      - 3
+    options:
+      - tok2vec
+      - tagger
+      - parser
+      - attribute_ruler
+      - tokenizer
+      - linter
+      - formatter
+  - question: Lemmatized version of `is` 
+    answers:
+      - be
+  - question: Lemmatized version of `written` 
+    answers:
+      - write
+  - question:
+    - type: code
+      lang: python
+      text:
+        - import spacy
+        - nlp = spacy.___("en_core_web_sm")
+        - doc = ___("Hello World")
+        - "for token in doc:"
+        -   "# Get the part of speech"
+        -   print(token.___)
+        -   "# Get the lemmatized version of the token"
+        -   print(token.___)
+    answers:
+      - load
+      - nlp
+      - pos_
+      - lemma_
+  - question: Which component of `en_core_web_sm` component is responsible to generate the part of speech?
+    answers:
+      - tagger
+  - question: Which language processing component is responsible for identifying entities in a text?
+    answers:
+      - ner
+  - question: What is the full form of ner?
+    answers:
+      - 0
+    options:
+      - Named entity recognizer
+      - Named entity regressor
+      - Normal entity recognizer
+      - Normal entity regressor
+  - question:
+    - type: code
+      lang: python
+      text:
+        - import spacy
+        - nlp = spacy.___("en_core_web_sm")
+        - doc = ___("Hello World")
+        - "for token in doc:"
+        -   "# Get the part of speech"
+        -   print(token.___)
+        -   "# Get the lemmatized version of the token"
+        -   print(token.___)
+    answers:
+      - load
+      - nlp
+      - pos_
+      - lemma_
+  - question:
+    - type: code
+      lang: python
+      text:
+        - import spacy
+        - nlp = spacy.load("en_core_web_sm")
+        - doc = nlp("Hello World")
+        - "for ent in doc.___:"
+        -   "# Get the entity text"
+        -   print(ent.___)
+        -   "# Get the entity label"
+        -   print(ent.___)
+        -   "# Explain why spacy classified this token as an entity"
+        -   print(spacy.___(___))
+    answers:
+      - ents
+      - text
+      - label_
+      - explain
+      - ent.label_
+  - question: Use displacy to render entities in `doc`
+    answers:
+      - displacy.render(doc, style="ent")
+  - question:
+    - type: code
+      lang: python
+      text:
+        - import spacy
+        - en_pipeline = spacy.load("en_core_web_sm")
+        - blank_pipeline = spacy.blank("en")
+        - "# Add the ner component"
+        - blank_pipeline.___("___", ___=___)
+        - "# Show the pipe names"
+        - blank_pipeline.___
+    answers:
+      - add_pipe
+      - ner
+      - source
+      - en_pipeline
+      - pipe_names

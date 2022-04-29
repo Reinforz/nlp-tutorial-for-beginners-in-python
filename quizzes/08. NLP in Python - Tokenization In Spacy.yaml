@@ -78,7 +78,7 @@ questions:
       - nlp.___
       - "# Get all the sentences of the text"
       - "for sentence in ___.___:"
-        - print(sentence)
+      - print(sentence)
     answers:
       - add_pipe
       - sentencizer
