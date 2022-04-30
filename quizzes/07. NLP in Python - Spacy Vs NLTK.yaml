@@ -17,17 +17,17 @@ questions:
     answers:
       - spacy.load("en_core_web_sm")
   - question:
-    - Complete the following code to get all the sentences & word from a given text using spacy
-    - type: code
-      lang: python
-      content:
-        - import ___
-        - nlp = spacy.___(___)
-        - doc = ___("This is a sentence written by Dr. John. While, this is another one written by Ms. Jane.")
-        - "for sentence in ___.___:"
-        -   "for word in ___:"
-        -     print(___)
-        -   print(___)
+      - Complete the following code to get all the sentences & word from a given text using spacy
+      - type: code
+        lang: python
+        text: |
+          import ___
+          nlp = spacy.___(___)
+          doc = ___("This is a sentence written by Dr. John. While, this is another one written by Ms. Jane.")
+          for sentence in ___.___:
+            for word in ___:
+              print(___)
+            print(___)
     answers:
       - spacy
       - load
@@ -48,18 +48,18 @@ questions:
     answers:
       - nltk.download('punkt')
   - question:
-    - Complete the following code to get all the sentences & word from a given text using nltk
-    - type: code
-      lang: python
-      content:
-        - import ___
-        - "# Import sentence tokenizer first, then word tokenizer" 
-        - from nltk.___ import ___, ___
-        - sentence = "This is a sentence written by Dr. John. While, this is another one written by Ms. Jane."
-        - "# Perform sentence tokenization"
-        - ___(sentence)
-        - "# Perform word tokenization"
-        - ___(sentence)
+      - Complete the following code to get all the sentences & word from a given text using nltk
+      - type: code
+        lang: python
+        text: |
+          import ___
+          # Import sentence tokenizer first, then word tokenizer
+          from nltk.___ import ___, ___
+          sentence = "This is a sentence written by Dr. John. While, this is another one written by Ms. Jane."
+          # Perform sentence tokenization
+          ___(sentence)
+          # Perform word tokenization
+          ___(sentence)
     answers:
       - nltk
       - tokenizer
