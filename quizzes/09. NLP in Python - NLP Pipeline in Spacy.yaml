@@ -46,15 +46,15 @@ questions:
   - question:
     - type: code
       lang: python
-      text:
-        - import spacy
-        - nlp = spacy.___("en_core_web_sm")
-        - doc = ___("Hello World")
-        - "for token in doc:"
-        -   "# Get the part of speech"
-        -   print(token.___)
-        -   "# Get the lemmatized version of the token"
-        -   print(token.___)
+      text: |
+        import spacy
+        nlp = spacy.___("en_core_web_sm")
+        doc = ___("Hello World")
+        for token in doc:
+          # Get the part of speech
+          print(token.___)
+          # Get the lemmatized version of the token
+          print(token.___)
     answers:
       - load
       - nlp
@@ -77,15 +77,15 @@ questions:
   - question:
     - type: code
       lang: python
-      text:
-        - import spacy
-        - nlp = spacy.___("en_core_web_sm")
-        - doc = ___("Hello World")
-        - "for token in doc:"
-        -   "# Get the part of speech"
-        -   print(token.___)
-        -   "# Get the lemmatized version of the token"
-        -   print(token.___)
+      text: |
+        import spacy
+        nlp = spacy.___("en_core_web_sm")
+        doc = ___("Hello World")
+        for token in doc:
+          # Get the part of speech
+          print(token.___)
+          # Get the lemmatized version of the token
+          print(token.___)
     answers:
       - load
       - nlp
@@ -94,17 +94,17 @@ questions:
   - question:
     - type: code
       lang: python
-      text:
-        - import spacy
-        - nlp = spacy.load("en_core_web_sm")
-        - doc = nlp("Hello World")
-        - "for ent in doc.___:"
-        -   "# Get the entity text"
-        -   print(ent.___)
-        -   "# Get the entity label"
-        -   print(ent.___)
-        -   "# Explain why spacy classified this token as an entity"
-        -   print(spacy.___(___))
+      text: |
+        import spacy
+        nlp = spacy.load("en_core_web_sm")
+        doc = nlp("Hello World")
+        for ent in doc.___:
+          # Get the entity text
+          print(ent.___)
+          # Get the entity label
+          print(ent.___)
+          # Explain why spacy classified this token as an entity
+          print(spacy.___(___))
     answers:
       - ents
       - text
@@ -117,14 +117,14 @@ questions:
   - question:
     - type: code
       lang: python
-      text:
-        - import spacy
-        - en_pipeline = spacy.load("en_core_web_sm")
-        - blank_pipeline = spacy.blank("en")
-        - "# Add the ner component"
-        - blank_pipeline.___("___", ___=___)
-        - "# Show the pipe names"
-        - blank_pipeline.___
+      text: |
+        import spacy
+        en_pipeline = spacy.load("en_core_web_sm")
+        blank_pipeline = spacy.blank("en")
+        # Add the ner component
+        blank_pipeline.___("___", ___=___)
+        # Show the pipe names
+        blank_pipeline.___
     answers:
       - add_pipe
       - ner

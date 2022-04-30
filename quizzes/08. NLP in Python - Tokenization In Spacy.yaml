@@ -6,18 +6,18 @@ questions:
     - What would be the output of the following code ?
     - type: code
       lang: python
-      content:
-        - import spacy
-        - nlp = spacy.blank("en")
-        - print(type(nlp))
-        - "# Output ___"
-        - doc = nlp("This is a sentence written by Dr. John.")
-        - print(type(doc))
-        - "# Output ___"
-        - print(type(doc[0]))
-        - "# Output ___"
-        - print(type(doc[0:5]))
-        - "# Output ___"
+      content: |
+        import spacy
+        nlp = spacy.blank("en")
+        print(type(nlp))
+        # Output ___
+        doc = nlp("This is a sentence written by Dr. John.")
+        print(type(doc))
+        # Output ___
+        print(type(doc[0]))
+        # Output ___
+        print(type(doc[0:5]))
+        # Output ___
     answers:
       - spacy.lang.en.English
       - spacy.tokens.doc.Doc
@@ -28,22 +28,22 @@ questions:
       - What would be the output of the following code
       - type: code
         lang: python
-        content: 
-          - import spacy
-          - nlp = spacy.blank("en")
-          - doc = nlp("This is the first sentence written by Dr. John.")
-          - first_token = doc[0]
-          - "# Check if the token is alphabetical"
-          - first_token.___
-          - "# Check if the token is a number"
-          - first_token.___
-          - "# Check if the token is a punctuation"
-          - first_token.___
-          - "# Write the output of the following code"
-          - fourth_token = doc[3]
-          - print(fourth_token.like_num)
-          - "# Check if the token is a currency"
-          - fourth_token.___       
+        text: |
+          import spacy
+          nlp = spacy.blank("en")
+          doc = nlp("This is the first sentence written by Dr. John.")
+          first_token = doc[0]
+          # Check if the token is alphabetical
+          first_token.___
+          # Check if the token is a number
+          first_token.___
+          # Check if the token is a punctuation
+          first_token.___
+          # Write the output of the following code
+          fourth_token = doc[3]
+          print(fourth_token.like_num)
+          # Check if the token is a currency
+          fourth_token.___       
     answers:
       - is_alpha
       - like_num
@@ -68,17 +68,17 @@ questions:
     - What would be the output of the following code
     - type: code
       lang: python
-      content:
-      - import spacy
-      - nlp = spacy.blank("en")
-      - doc = nlp("This is the first sentence written by Dr. John.")
-      - "# add the `sentencizer` component to the language pipeline"
-      - nlp.___('___')
-      - "# Get the pipelines of the current language model"
-      - nlp.___
-      - "# Get all the sentences of the text"
-      - "for sentence in ___.___:"
-      - print(sentence)
+      text: |
+        import spacy
+        nlp = spacy.blank("en")
+        doc = nlp("This is the first sentence written by Dr. John.")
+        # add the `sentencizer` component to the language pipeline
+        nlp.___('___')
+        # Get the pipelines of the current language model
+        nlp.___
+        # Get all the sentences of the text
+        for sentence in ___.___:
+        print(sentence)
     answers:
       - add_pipe
       - sentencizer
